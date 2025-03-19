@@ -1,0 +1,122 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    gap: 5px;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(235, 140, 17);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(184, 235, 17);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(52, 201, 72);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+
+.item5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(223, 18, 161);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+
+.item6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(223, 18, 18);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 10;
+}
+
+.item7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(77, 140, 66);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 10;
+    grid-row-end: 20;
+}
+
+.item8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(76, 80, 146);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 20;
+}
+
+.item9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(145, 70, 70);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 20;
+}
+
+.item10 {
+    background-color: rgb(92, 125, 141);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 20;
+    grid-row-end: 27;
+}
